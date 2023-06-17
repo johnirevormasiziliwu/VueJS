@@ -11,23 +11,23 @@ const routes = [
     component: Home,
   },
   {
-    path: "/",
+    path: "/about",
     name: "about",
     component: About,
   },
   {
-    path: "/",
+    path: "/contact",
     name: "contact",
     component: Contact,
   },
   {
-    path: "/",
+    path: "/users",
     name: "users",
     component: User,
   },
   {
-    path: "/",
-    name: "showuser",
+    path: "/users/:id",
+    name: "users.show",
     component: ShowUser,
   },
 ];
